@@ -23,7 +23,7 @@ public class LauncherBot {
 		
 		driver.get("https://www.amazon.co.jp");
 		driver.findElement(By.xpath("//*[@id=\"searchDropdownBox\"]")).click();
-		for(int i = 0; i < 5; i++) {
+		for(int i = 0; i < 17; i++) {
 			rb.keyPress(KeyEvent.VK_DOWN);
 			Thread.sleep(0);
 		}
